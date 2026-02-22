@@ -1,11 +1,14 @@
-import React from 'react'
 
-const Subtraction = () => {
-  return (
-    <div>
-      <p>This is Subtraction</p>
-    </div>
-  )
-}
+let Subtraction = ( ) =>{
+    let subtraction_click = () =>{
+        alert("Subtraction click");
+    }
 
-export default Subtraction
+    return (
+        <div> 
+        <button classname="border-1 bg-green-900 hover:bg-blue-900" onClick={()=>subtraction_click()}> Subtraction</button>
+        </div>
+
+    )
+} 
+export default Subtraction;
