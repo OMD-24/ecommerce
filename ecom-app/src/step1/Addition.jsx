@@ -1,7 +1,7 @@
 
 
 let Addition = ( ) =>{
-    let addtion_click = () =>{
+    let addition_click = () =>{
         alert("Addition click");
     }
 

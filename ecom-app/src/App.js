@@ -1,12 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Index from './step1/Index';
 
 function App() {
   return (
     <div className="App">
-      <div style={{ fontSize: "50px" }}>
-  This is Our Ecom-app
-</div>
+    <Index/>
     </div>
   );
 }
