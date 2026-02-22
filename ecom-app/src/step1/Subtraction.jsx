@@ -10,4 +10,4 @@ let Subtraction = ({x,y}) =>{
 
     )
 } 
-export default Multiplication;
+export default Subtraction;
