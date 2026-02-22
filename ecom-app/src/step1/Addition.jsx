@@ -1,7 +1,15 @@
-import React from "react";
 
-const Addition = ({ x, y }) => {
-  return <h3>Addition: {x + y}</h3>;
-};
 
+let Addition = ( ) =>{
+    let addition_click = () =>{
+        alert("Addition click");
+    }
+
+    return (
+        <div> 
+        <button classname="border-1 bg-green-900 hover:bg-blue-900 mx-1 rounded-md" onClick={()=>addition_click()}> Addition</button>
+        </div>
+
+    )
+} 
 export default Addition;
