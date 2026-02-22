@@ -1,8 +1,8 @@
 
 
-let Division = ( ) =>{
+let Division = ( {x,y}) =>{
     let division_click = () =>{
-        alert("Division click");
+        alert("Division ="+ x/y);
     }
 
     return (

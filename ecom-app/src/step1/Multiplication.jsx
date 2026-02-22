@@ -1,7 +1,7 @@
 
-let Multiplication = ( ) =>{
+let Multiplication = ({x,y}) =>{
     let multiplication_click = () =>{
-        alert("Multiplication click");
+        alert("Multiplication ="+ x*y);
     }
 
     return (

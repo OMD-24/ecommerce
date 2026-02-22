@@ -1,8 +1,8 @@
 
 
-let Addition = ( ) =>{
+let Addition = ({x,y} ) => {
     let addition_click = () =>{
-        alert("Addition click");
+        alert("Addition =" + x+y );
     }
 
     return (
