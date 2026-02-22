@@ -1,15 +1,7 @@
+import React from "react";
 
+const Division = ({ x, y }) => {
+  return <h3>Division: {y !== 0 ? x / y : "Cannot divide by zero"}</h3>;
+};
 
-let Division = ( ) =>{
-    let division_click = () =>{
-        alert("Division click");
-    }
-
-    return (
-        <div> 
-        <button classname="border-1 bg-green-900 hover:bg-blue-900" onClick={()=>division_click()}> Division</button>
-        </div>
-
-    )
-} 
 export default Division;
